@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebijakan Privasi - CekDuit</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 40px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 40px;
+        }
+        h1 {
+            color: #667eea;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        .update-date {
+            color: #888;
+            font-size: 14px;
+        }
+        h2 {
+            color: #333;
+            font-size: 20px;
+            margin: 30px 0 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        h3 {
+            color: #555;
+            font-size: 16px;
+            margin: 20px 0 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        .highlight-box {
+            background: #f8f9ff;
+            border-left: 4px solid #667eea;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 10px 10px 0;
+        }
+        .warning-box {
+            background: #fff8f0;
+            border-left: 4px solid #ff9800;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 10px 10px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: 600;
+        }
+        tr:hover {
+            background: #f8f9ff;
+        }
+        .icon-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .icon-list li {
+            padding-left: 30px;
+            position: relative;
+            margin-bottom: 12px;
+        }
+        .icon-list li::before {
+            content: "✅";
+            position: absolute;
+            left: 0;
+        }
+        .security-list li::before {
+            content: "🔒";
+        }
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .contact-box h3 {
+            color: white;
+            margin-bottom: 15px;
+        }
+        .contact-box a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #f0f0f0;
+            color: #888;
+            font-size: 14px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                border-radius: 15px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">💰</div>
+            <h1>Kebijakan Privasi CekDuit</h1>
+            <p class="update-date">Terakhir diperbarui: 15 Januari 2026</p>
+        </div>
+
+        <p>Selamat datang di CekDuit! Kami menghargai privasi Anda dan berkomitmen untuk melindungi data pribadi Anda. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi informasi Anda saat menggunakan aplikasi CekDuit.</p>
+
+        <h2>1. Informasi yang Kami Kumpulkan</h2>
+        
+        <h3>1.1 Informasi yang Anda Berikan</h3>
+        <ul>
+            <li><strong>Data Akun:</strong> Email dan kata sandi (jika Anda memilih untuk membuat akun)</li>
+            <li><strong>Data Keuangan:</strong> Transaksi pemasukan dan pengeluaran yang Anda input secara manual</li>
+            <li><strong>Kategori Kustom:</strong> Kategori yang Anda buat untuk mengorganisir transaksi</li>
+        </ul>
+
+        <h3>1.2 Informasi yang Dikumpulkan Secara Otomatis</h3>
+        <ul>
+            <li><strong>Data Perangkat:</strong> Jenis perangkat, versi sistem operasi, dan pengidentifikasi perangkat unik</li>
+            <li><strong>Data Penggunaan:</strong> Fitur yang digunakan, waktu penggunaan aplikasi</li>
+            <li><strong>Data Crash:</strong> Laporan error untuk meningkatkan stabilitas aplikasi</li>
+        </ul>
+
+        <h3>1.3 Informasi dari Pihak Ketiga</h3>
+        <ul>
+            <li><strong>Google Play:</strong> Informasi pembelian untuk langganan premium</li>
+            <li><strong>Google AdMob:</strong> Data iklan untuk pengguna versi gratis</li>
+        </ul>
+
+        <h2>2. Bagaimana Kami Menggunakan Informasi Anda</h2>
+        <p>Kami menggunakan informasi yang dikumpulkan untuk:</p>
+        <ul class="icon-list">
+            <li>Menyediakan layanan pencatatan keuangan</li>
+            <li>Menyinkronkan data antar perangkat (pengguna Premium)</li>
+            <li>Memproses pembayaran langganan</li>
+            <li>Menampilkan iklan yang relevan (pengguna Gratis)</li>
+            <li>Mengirim notifikasi pengingat (jika diaktifkan)</li>
+            <li>Meningkatkan dan mengembangkan fitur aplikasi</li>
+            <li>Mendeteksi dan mencegah penipuan</li>
+        </ul>
+
+        <h2>3. Penyimpanan Data</h2>
+        
+        <h3>3.1 Penyimpanan Lokal</h3>
+        <p>Data transaksi disimpan secara lokal di perangkat Anda menggunakan SQLite. Data lokal sepenuhnya berada di bawah kendali Anda.</p>
+
+        <h3>3.2 Penyimpanan Cloud (Pengguna Premium)</h3>
+        <p>Data disinkronkan ke server Supabase yang aman. Server berlokasi di infrastruktur yang sesuai dengan standar keamanan industri. Data dienkripsi saat transit menggunakan TLS/SSL.</p>
+
+        <h2>4. Berbagi Informasi</h2>
+        
+        <div class="highlight-box">
+            <strong>Kami TIDAK menjual data pribadi Anda.</strong> Kami hanya berbagi informasi dengan pihak ketiga yang diperlukan untuk menyediakan layanan.
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Pihak Ketiga</th>
+                    <th>Tujuan</th>
+                    <th>Data yang Dibagikan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Google Play</td>
+                    <td>Pemrosesan pembayaran</td>
+                    <td>Info transaksi pembelian</td>
+                </tr>
+                <tr>
+                    <td>Google AdMob</td>
+                    <td>Menampilkan iklan</td>
+                    <td>ID perangkat, data iklan</td>
+                </tr>
+                <tr>
+                    <td>Supabase</td>
+                    <td>Penyimpanan cloud</td>
+                    <td>Data transaksi (Premium)</td>
+                </tr>
+                <tr>
+                    <td>Firebase</td>
+                    <td>Analitik & crash report</td>
+                    <td>Data penggunaan anonim</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>5. Keamanan Data</h2>
+        <p>Kami menerapkan langkah-langkah keamanan berikut:</p>
+        <ul class="icon-list security-list">
+            <li>Enkripsi data saat transit (TLS/SSL)</li>
+            <li>Autentikasi aman untuk akun pengguna</li>
+            <li>Akses terbatas ke data pengguna</li>
+            <li>Pemantauan keamanan berkala</li>
+            <li>Kata sandi di-hash dan tidak disimpan dalam bentuk teks biasa</li>
+        </ul>
+
+        <h2>6. Hak Privasi Anda</h2>
+        
+        <h3>6.1 Mengakses Data</h3>
+        <p>Anda dapat melihat semua data yang tersimpan di aplikasi kapan saja.</p>
+
+        <h3>6.2 Menghapus Data</h3>
+        <ul>
+            <li><strong>Data Lokal:</strong> Hapus aplikasi untuk menghapus semua data lokal</li>
+            <li><strong>Data Cloud:</strong> Hubungi kami di cekduit.app@gmail.com untuk menghapus data cloud</li>
+        </ul>
+
+        <h3>6.3 Mengekspor Data</h3>
+        <p>Fitur ekspor laporan tersedia untuk mengunduh data transaksi Anda.</p>
+
+        <h3>6.4 Menolak Iklan Personalisasi</h3>
+        <p>Anda dapat menonaktifkan iklan personalisasi melalui pengaturan perangkat Android.</p>
+
+        <h2>7. Penggunaan oleh Anak-anak</h2>
+        <div class="warning-box">
+            CekDuit tidak ditujukan untuk anak-anak di bawah 13 tahun. Kami tidak secara sengaja mengumpulkan informasi dari anak-anak di bawah 13 tahun.
+        </div>
+
+        <h2>8. Iklan</h2>
+        
+        <h3>8.1 Pengguna Gratis</h3>
+        <p>Aplikasi menampilkan iklan dari Google AdMob. Iklan ini mungkin menggunakan ID perangkat, data lokasi umum, dan riwayat interaksi iklan.</p>
+
+        <h3>8.2 Pengguna Premium</h3>
+        <p>Pengguna Premium menikmati pengalaman bebas iklan.</p>
+
+        <h2>9. Perubahan Kebijakan Privasi</h2>
+        <p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Perubahan akan diberitahukan melalui pembaruan tanggal di halaman ini dan notifikasi dalam aplikasi untuk perubahan signifikan.</p>
+
+        <h2>10. Retensi Data</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Jenis Data</th>
+                    <th>Periode Retensi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Data Akun</td>
+                    <td>Sampai akun dihapus</td>
+                </tr>
+                <tr>
+                    <td>Data Transaksi (Lokal)</td>
+                    <td>Sampai aplikasi dihapus</td>
+                </tr>
+                <tr>
+                    <td>Data Transaksi (Cloud)</td>
+                    <td>Sampai akun dihapus atau diminta penghapusan</td>
+                </tr>
+                <tr>
+                    <td>Log Penggunaan</td>
+                    <td>90 hari</td>
+                </tr>
+                <tr>
+                    <td>Data Crash</td>
+                    <td>90 hari</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="contact-box">
+            <h3>📧 Hubungi Kami</h3>
+            <p>Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini:</p>
+            <p><a href="mailto:cekduit.app@gmail.com">cekduit.app@gmail.com</a></p>
+        </div>
+
+        <div class="footer">
+            <p>Dengan menggunakan aplikasi CekDuit, Anda menyetujui pengumpulan dan penggunaan informasi sesuai dengan Kebijakan Privasi ini.</p>
+            <p style="margin-top: 15px;"><strong>© 2026 CekDuit. All rights reserved.</strong></p>
+        </div>
+    </div>
+</body>
+</html>
